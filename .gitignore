@@ -6,6 +6,7 @@
 
 # Only track C++ source files
 !*.cpp
+!*.md
 
 # Keep this file tracked
 !.gitignore
