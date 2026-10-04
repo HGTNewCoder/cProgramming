@@ -1,0 +1,11 @@
+# Ignore everything by default
+*
+
+# Allow git to descend into directories
+!*/
+
+# Only track C++ source files
+!*.cpp
+
+# Keep this file tracked
+!.gitignore
