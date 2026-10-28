@@ -3,20 +3,27 @@ using namespace std;
 
 using ll = long long;
 
-void solve() {
 
+void solve() {
+    ll n;
+    cin >> n;
+
+    ll s=0;
+
+    for (int i = 5; i <= n; i*=5){
+        s+= n/i;
+        if (n/i == 0) break;
+    }
+
+    cout << s;
 }
 
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    /* int t = 1; */
+    int t = 1;
     // cin >> t;
-    /* while (t--) solve(); */
-
-    ll a = pow(2, 400);
-    cout << a << endl;
-    cout << a % 4027 << endl;
+    while (t--) solve();
     return 0;
 }
