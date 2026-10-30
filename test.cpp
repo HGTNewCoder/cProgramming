@@ -3,20 +3,15 @@ using namespace std;
 
 using ll = long long;
 
-void solve() {
-
+void solve(int a[]) {
+    cout << a[0];
 }
 
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    /* int t = 1; */
-    // cin >> t;
-    /* while (t--) solve(); */
-
-    ll a = pow(2, 400);
-    cout << a << endl;
-    cout << a % 4027 << endl;
+    int a[2] = {0, 0};
+    solve(a);
     return 0;
 }
