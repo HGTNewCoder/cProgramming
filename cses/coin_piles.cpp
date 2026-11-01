@@ -3,7 +3,6 @@ using namespace std;
 
 using ll = long long;
 using ull = unsigned long long;
-<<<<<<< Updated upstream
 using ld = long double;
 using pii = pair<int, int>;
 using pll = pair<ll, ll>;
@@ -16,9 +15,6 @@ const ll MOD = 1000000000 + 7;
 #define fi first
 #define se second
 
-=======
-const ll MOD = 1000000000 + 7;
->>>>>>> Stashed changes
 
 void solve() {
     ull x, y;
